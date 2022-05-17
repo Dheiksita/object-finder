@@ -1,0 +1,26 @@
+
+.heading
+{
+font-size: 23px;
+width: 100%;
+margin: 0px;
+}
+
+#status,#NOO
+{
+font-size: 18px;
+}
+body{
+    background-size: cover;
+}
+canvas{
+    border-radius: 20px;
+    animation-name: canvas;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    margin-top: 30px;
+}
+@keyframes canvas{
+    from{box-shadow: 15px 15px 15px rgb(0, 145, 255);}
+    to{box-shadow: 15px 15px 15px red;}
+}
